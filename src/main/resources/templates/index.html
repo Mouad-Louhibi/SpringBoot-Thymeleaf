@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <img th:class="logo" src="/logo.jpg" alt="Logo image">
+    </header>
     <section>
         <h2>Spring Boot Project</h2>
         <a href="youtube.com" target="_blank">More Details</a>
+        <img th:class="cover" src="/cover.jpg" alt="Cover">
     </section>
     <footer>
-        <p>Copyright by Mouad louhibi</p>
+        <p th:class="copyright">Copyright by Mouad louhibi</p>
     </footer>
 </body>
 </html>

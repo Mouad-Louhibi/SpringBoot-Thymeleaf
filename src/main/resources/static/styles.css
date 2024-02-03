@@ -1,0 +1,17 @@
+.logo {
+    width: 80%;
+}
+
+.cover {
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.copyright {
+    color: #6c6c6c;
+}
+
+section, footer {
+    padding-left: 200px;
+}
